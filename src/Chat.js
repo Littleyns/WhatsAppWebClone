@@ -1,5 +1,6 @@
 import React from 'react'
 import './Chat.css'
+import Message from './Message.js'
 import {IconButton,Avatar} from '@material-ui/core';
 import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
@@ -21,17 +22,11 @@ function Chat() {
           </div>
           <div className="chat__body">
 
-            <p className="chat__message">
-            <span className="chat__name">Youness</span>
-              This is a message
-              <span className="chat__timestamp">{new Date().toUTCString()}</span>
-              </p>
+          <Message message="lol" name="younes" receiver={false} />
+          <Message message="lol" name="younes" receiver={true} />
 
-            <p className="chat__message chat__receiver">
-            <span className="chat__name">Youness</span>
-              This is a message
-              <span className="chat__timestamp">{new Date().toUTCString()}</span>
-              </p> 
+          </div>
+          <div className="chat__footer">
 
           </div>
         </div>
