@@ -25,11 +25,10 @@ function Sidebar() {
                     <input placeholder="Cherchez un chat" type="text"/>
                 </div>
             </div>
-            <div class="sidebar__chats">
+            <div class="sidebar__chats" id="style-1">
             <SidebarChat/>
             <SidebarChat/>
-            <SidebarChat/>
-            
+            <SidebarChat/>      
             </div>
         </div>
     )
