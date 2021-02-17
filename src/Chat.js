@@ -29,12 +29,13 @@ function Chat() {
 
           </div>
           <div className="chat__footer">
-        <MoodIcon />
+          <IconButton><MoodIcon /></IconButton>
         <form>
           <input placeholder="Ecrivez votre message" type="text"/>
           <button type="submit">Envoyer</button>
         </form>
-        <MicIcon/>
+        <IconButton> <MicIcon/></IconButton>
+       
           </div>
         </div>
     )
