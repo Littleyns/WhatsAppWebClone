@@ -1,7 +1,7 @@
 import React from 'react'
 import './Chat.css'
 function Message(props) {
-    let classi=props.receiver?"chat__message chat__receiver":"chat__message";
+    let classi=props.received?"chat__message chat__receiver":"chat__message";
     return (
         
         <p className={classi}>

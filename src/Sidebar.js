@@ -13,7 +13,7 @@ function Sidebar() {
             
             <div className="sidebar__header">
             <Avatar src={lol}/>
-                <div classnName="sidebar__headerRight">
+                <div className="sidebar__headerRight">
                 <IconButton><DonutLargeIcon/></IconButton>
                 <IconButton><MoreVertIcon/></IconButton>
                 <IconButton><ChatIcon/></IconButton>
@@ -25,7 +25,7 @@ function Sidebar() {
                     <input placeholder="Cherchez un chat" type="text"/>
                 </div>
             </div>
-            <div class="sidebar__chats" id="style-1">
+            <div className="sidebar__chats" id="style-1">
             <SidebarChat/>
             <SidebarChat/>
             <SidebarChat/>      
