@@ -1,5 +1,5 @@
 import axios from 'axios';
 const instance = axios.create({
-    baseURL:'https://webwhatsappserver.herokuapp.com:9000',
+    baseURL:'https://webwhatsappserver.herokuapp.com',
 });
 export default instance;
